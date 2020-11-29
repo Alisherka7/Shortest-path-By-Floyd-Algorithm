@@ -118,8 +118,9 @@ void shortest_path_floyd(){
 }
 
 int main(){
+     
     load_wgraph("wgraph_sp.txt");
-    print_wgraph("최단거리 (wgraph_sp.txt)\n");
+    print_wgraph("Shortest distance (wgraph_sp.txt)\n");
     
     printf("Shortest path By Floyd Algorithm\n");
     shortest_path_floyd();
